@@ -1,0 +1,204 @@
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.title_navbar{
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+
+.foto_profile{
+    filter: grayscale();
+}
+
+.text-highlight{
+    color: #7ff09e;
+    font-weight: bold;
+}
+
+.logo_logo {
+    max-height: 3rem;
+}
+
+.more_logo{
+    border: solid 1px #fff;
+    border-radius: 100%;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.flex_item{
+    white-space: normal !important;
+}
+
+.more_achievements{
+    margin: auto;
+    width: 250px;
+}
+
+.cert_item{
+    margin-top: 20px;
+}
+
+.unlocked_row{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+}
+
+.publication_row{
+    grid-template-columns: 1fr 1fr 1fr !important;
+}
+
+.unlocked_image{
+    width: 270px;
+    border-radius: 5px !important;
+}
+
+.capability_list{
+    align-items: center;
+}
+
+.arrow_up_edu{
+    display: none;
+}
+
+.capability_icon-image {
+    border-radius: 15px;
+    width: 5rem;
+    height: auto;
+    max-width: none;
+}
+
+.process_row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.process_card-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button.mini{
+    padding: 0.3rem 1.5rem;
+    border-radius: 4px;
+}
+
+.customize_container{
+    width: 65%;
+}
+
+.cta_wrapper.custom{
+    padding: 0px;
+}
+
+.galleries_image{
+    border-radius: 4px;
+    width: 16rem;
+}
+
+.image_galleries{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 180px;
+}
+
+.galleries_item{
+    margin: 10px;
+}
+
+.unlocked_item{
+    grid-template-columns: auto;
+}
+
+.item_galleries{
+    display: block;
+    font-size: 18px;
+    flex: 0;
+}
+
+@media screen and (max-width: 767px){
+    .customize_container{
+        width: 100%;
+    }
+
+    .logo_logo {
+        max-height: 2.5rem !important;
+    }
+
+    .button-group {
+        flex-direction: row;
+    }
+    
+    .navbar_container {
+        padding: 11px;
+    }
+
+    .navbar_logo-image-wrapper {
+        z-index: 0;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .navbar_logo {
+        width: 3rem;
+        height: 3rem;
+        border: 2px solid var(--border);
+        background-color: var(--black);
+        border-radius: 50%;
+    }
+
+    .singaperbangsa_univ{
+        order: 1;
+    }
+    .arrow_right_edu{
+        display: none;
+    }
+    .arrow_up_edu{
+        display: block;
+        order: 2;
+    }
+    .hacker_school{
+        order: 3;
+    }
+
+    .process_row {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.list-writeup{
+    margin-top: 60px;
+}
+
+.icon_writeup{
+    margin-right: 10px;
+}
+
+.content_writeup{
+    text-align: start;
+    margin-top: 30px;
+}
+
+.img-poc{
+    width: 100% !important;
+}
+
+.nda-gif{
+    width: 70%;
+}
+
+.video-poc{
+    width: 100%;
+}
+
